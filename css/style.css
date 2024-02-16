@@ -1,0 +1,101 @@
+body {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.company-info {
+  display: flex;
+  align-items: center;
+}
+
+.text-info {
+  color: #777777;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.text-info h1 {
+  font: bold 28px/0.8 'PT Sans', sans-serif;
+  margin: 0;
+}
+
+.horizontal-menu {
+  background-color: #777777;
+  text-align: center;
+}
+
+.horizontal-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.horizontal-menu ul li {
+  margin: 0;
+  padding: 0;
+}
+
+.horizontal-menu ul li a {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  position: relative;
+  border-bottom: 4px solid #777777;
+  margin-bottom: 6px;
+  line-height: normal;
+  top: 0;
+}
+
+.horizontal-menu ul li a::after {
+  content: "|";
+  position: absolute;
+  right: -10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.horizontal-menu ul li:last-child a::after {
+  content: none;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+
+
+.phone-numbers {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  font-size: 18px;
+  color: #777777;
+}
+
+.phone-numbers span {
+  margin-bottom: -5px;
+}
+
+.link-underline {
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  color: #777777;
+}
+
+header {
+  background-color: #99;
+}
+
+
